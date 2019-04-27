@@ -28,7 +28,8 @@ HEADERS += \
     src/filemodel.h \
     src/statfileinfo.h \
     src/globals.h \
-    src/charttypes.h
+    src/charttypes.h \
+    src/insurance.h
 
 SOURCES += CarBudget.cpp \
     src/tank.cpp \
@@ -43,7 +44,8 @@ SOURCES += CarBudget.cpp \
     src/tiremount.cpp \
     src/filemodel.cpp \
     src/statfileinfo.cpp \
-    src/globals.cpp
+    src/globals.cpp \
+    src/insurance.cpp
     
 DISTFILES += \
     qml/pages/CostEntry.qml \

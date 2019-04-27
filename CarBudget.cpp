@@ -27,6 +27,7 @@
 #include <QSettings>
 #include "src/tank.h"
 #include "src/cost.h"
+#include "src/insurance.h"
 #include "src/tire.h"
 #include "src/station.h"
 #include "src/car.h"
@@ -70,6 +71,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<FuelType>(  "harbour.carbudget",1,0,"FuelType");
     qmlRegisterType<Station>(   "harbour.carbudget",1,0,"Station");
     qmlRegisterType<CostType>(  "harbour.carbudget",1,0,"CostType");
+    qmlRegisterType<Insurance>( "harbour.carbudget",1,0,"Insurance");
     qmlRegisterType<Cost>(      "harbour.carbudget",1,0,"Cost");
     qmlRegisterType<Tire>(      "harbour.carbudget",1,0,"Tire");
     qmlRegisterType<TireMount>( "harbour.carbudget",1,0,"TireMount");
